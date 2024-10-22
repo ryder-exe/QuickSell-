@@ -1,0 +1,55 @@
+.dashboard-Container {
+	display: flex;
+	margin-top: 2vh;
+	align-items: flex-start;
+	gap: 20px;
+	flex-wrap: wrap;
+	padding: 5px 10px;
+}
+.icon {
+	position: relative;
+	top: 0.2vh;
+}
+.l-box {
+	width: 60%;
+	display: flex;
+}
+.r-box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 40%;
+}
+.image-Container {
+	position: relative;
+	width: 30px;
+	height: 30px;
+	align-items: center;
+}
+img {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+.column-menu-Heading {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 5vh;
+}
+
+.column-menu {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction: column;
+	gap: 5px;
+	width: 300px;
+}
+.card-list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 10px;
+}
